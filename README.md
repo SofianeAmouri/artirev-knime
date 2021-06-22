@@ -1,4 +1,4 @@
 # Artirev Knime Workflow
 
-# Configuration
-Knime version: 
+## Configuration
+Knime version: 4.3.2
