@@ -1,1 +1,4 @@
-# artirev-knime
+# Artirev Knime Workflow
+
+# Configuration
+Knime version: 
