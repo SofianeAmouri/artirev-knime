@@ -11,9 +11,9 @@ Voici une vue d'ensemble du Workflow
 
 
 
-
 ## Chargement du fichier
 ![image](https://user-images.githubusercontent.com/61782191/123223257-07db5480-d4d1-11eb-96e0-cb002bd3a6ee.png)
+
 
 
 ## Pré-nettoyage
@@ -25,8 +25,11 @@ Voici une vue d'ensemble du Workflow
 ### Première partie (qui englobe toutes les données)
 ![image](https://user-images.githubusercontent.com/61782191/123226322-d7e18080-d4d3-11eb-9d22-7453fdf028fe.png)
 
+
+
 ### Deuxième partie (partie de test avec une seule référence à comparer)
 ![image](https://user-images.githubusercontent.com/61782191/123226457-f8a9d600-d4d3-11eb-8710-1533e0994e09.png)
+
 
 
 ## Fingerprint
