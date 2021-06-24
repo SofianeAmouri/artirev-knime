@@ -67,5 +67,7 @@ Donc, cela nous montre que la référence qui a un petit score total (en additio
 
 ### Problèmes
 Problème avec le noeud "Create Bit Vector":
+
 ![image](https://user-images.githubusercontent.com/61782191/123230386-80451400-d4d7-11eb-80dd-11cd1ccfc189.png)
+
 Les caractères qui sont "invalides" se retrouvent être à chaque fois le dernier caractère de chaque référence.
