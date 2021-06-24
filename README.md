@@ -5,6 +5,8 @@ Knime version: 4.3.2
 
 
 ## Vue d'ensemble
+Voici une vue d'ensemble du Workflow
+
 ![artirev_workflow knwf](https://user-images.githubusercontent.com/61782191/123226112-a49ef180-d4d3-11eb-9aba-ca3363652f70.jpg)
 
 
@@ -19,7 +21,7 @@ Knime version: 4.3.2
 
 
 
-## Distance de Levenshtein
+## Distance de Levenshtein normalisé
 ### Première partie (qui englobe toutes les données)
 ![image](https://user-images.githubusercontent.com/61782191/123226322-d7e18080-d4d3-11eb-9d22-7453fdf028fe.png)
 
