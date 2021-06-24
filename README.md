@@ -20,6 +20,12 @@ Knime version: 4.3.2
 
 
 ## Distance de Levenshtein
+### Première partie (qui englobe toutes les données)
+![image](https://user-images.githubusercontent.com/61782191/123226322-d7e18080-d4d3-11eb-9d22-7453fdf028fe.png)
+
+### Deuxième partie (partie de test avec une seule référence à comparer)
+![image](https://user-images.githubusercontent.com/61782191/123226457-f8a9d600-d4d3-11eb-8710-1533e0994e09.png)
 
 
 ## Fingerprint
+![image](https://user-images.githubusercontent.com/61782191/123226503-05c6c500-d4d4-11eb-9df0-93f7def27d56.png)
