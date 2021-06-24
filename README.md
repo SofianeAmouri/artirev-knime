@@ -5,7 +5,8 @@ Knime version: 4.3.2
 
 
 ## Vue d'ensemble
-![artirev_workflow knwf](https://user-images.githubusercontent.com/61782191/123225993-8802b980-d4d3-11eb-97e4-97808fb8ec37.png)
+![artirev_workflow knwf](https://user-images.githubusercontent.com/61782191/123226112-a49ef180-d4d3-11eb-9aba-ca3363652f70.jpg)
+
 
 
 
