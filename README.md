@@ -63,7 +63,7 @@ Zone 4:
 Donc, cela nous montre que la référence qui a un petit score total (en additionnant tous les scores) correspond le plus à la réalité et que c’est cette référence qui devrait être prise comme référence de remplacement pour toutes les autres. Malgré un taux d’erreurs de faute d’orthographe, cela revient quand même à uniformiser vers une référence contenant le moins possible d’erreurs voire même aucune.
 
 #### Méthode 2
-En me basant sur l'article de Olensky, (autres auteurs) (2016), lorsque qu'il y a plusieurs match de similarité, on choisit la référence qui a le plus de match que les autres pour remplacer celle-ci.
+(à appronfondir) Remplacer toutes les références par la référence qui a eu le plus de match de similarité, donc cette référence serait celle qui couvre le plus de référence similaire. 
 
 ## Fingerprint
 ![image](https://user-images.githubusercontent.com/61782191/123226503-05c6c500-d4d4-11eb-9df0-93f7def27d56.png)
