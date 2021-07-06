@@ -34,6 +34,7 @@ Voici une vue d'ensemble du Workflow
 Selon plusieurs tests effectués, le seuil pour la distance normalisé est à 0.53. Ce seuil pourrait être modifié par la suite si celui-ci ne convient plus.
 
 ### Comment choisir par quelle référence on remplace les autres ? (la référence la plus propre)
+#### Méthode 1
 ![image](https://user-images.githubusercontent.com/61782191/123234059-ea12ed00-d4da-11eb-8982-0845a1e45f2f.png)
 Zone 1:
 - 0.212
@@ -60,6 +61,9 @@ Zone 4:
 - Score total: 0.377
 
 Donc, cela nous montre que la référence qui a un petit score total (en additionnant tous les scores) correspond le plus à la réalité et que c’est cette référence qui devrait être prise comme référence de remplacement pour toutes les autres. Malgré un taux d’erreurs de faute d’orthographe, cela revient quand même à uniformiser vers une référence contenant le moins possible d’erreurs voire même aucune.
+
+#### Méthode 2
+En me basant sur l'article de Olensky, (autres auteurs) (2016), lorsque qu'il y a plusieurs match de similarité, on choisit la référence qui a le plus de match que les autres pour remplacer celle-ci.
 
 ## Fingerprint
 ![image](https://user-images.githubusercontent.com/61782191/123226503-05c6c500-d4d4-11eb-9df0-93f7def27d56.png)
