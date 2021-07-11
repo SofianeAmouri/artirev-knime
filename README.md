@@ -12,16 +12,31 @@ Voici une vue d'ensemble du Workflow
 
 
 ## Chargement du fichier
+
 ![image](https://user-images.githubusercontent.com/61782191/123223257-07db5480-d4d1-11eb-96e0-cb002bd3a6ee.png)
 
+Le chargement du fichier permet tout simplement de charger le fichier de type csv dans Knime, par la suite on garde uniquement deux colonnes qui nous intéresse, EID qui correspond à l'identifiant du document (articles ou autres) et References qui correspond à toutes les références citées dans le document. On sépare toutes les références des documents afin de les avoir séparement et on passe à la partie suivante.
 
 
 ## Pré-nettoyage
 ![image](https://user-images.githubusercontent.com/61782191/123225599-293d4000-d4d3-11eb-999f-8192980f6425.png)
 
+On effectue un pré-nettoyage afin d'avoir des matchs de référence plus précise. On supprime plusieurs éléments de la référence, en commencant par supprimer les documents qui ne contiennent aucune référence, afin de gagner un peu de temps sur le traitement plus tard. 
 
+Ensuite, le pré-nettoyage va effectuer les étapes suivantes:
+- Normalisé les espaces et convertir la chaine de caractère en minuscule.
+- Supprimer la partie "http/https" (donc l'URL).
+- Supprimer "available", "accessed", "retrieved".
+- Supprimer la partie [../..], par exemple [online] ou [eb/ol].
+- Supprimer les numéros de pages (pas encore au point).
+- Supprimer le DOI.
+
+L'étape de pré-nettoyage peut encore être amélioré afin d'avoir de meilleur résultat au niveau des matching des références.
 
 ## Distance de Levenshtein normalisé
+
+A des fins de tests, la deuxième partie utilise uniquement une référence qui correspond 
+
 ### Première partie (qui englobe toutes les données)
 ![image](https://user-images.githubusercontent.com/61782191/123226322-d7e18080-d4d3-11eb-9d22-7453fdf028fe.png)
 
@@ -36,6 +51,9 @@ Selon plusieurs tests effectués, le seuil pour la distance normalisé est à 0.
 ### Comment choisir par quelle référence on remplace les autres ? (la référence la plus propre)
 #### Méthode 1
 ![image](https://user-images.githubusercontent.com/61782191/123234059-ea12ed00-d4da-11eb-8982-0845a1e45f2f.png)
+
+On sépare en différente zone pour chaque matching pour chaque référence, c'est-à-dire on observe les différents matching et on calcul le "score total" afin d'avoir une sorte de moyenne pour chaque référence.
+
 Zone 1:
 - 0.212
 - 0.257
