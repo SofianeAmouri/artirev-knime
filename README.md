@@ -3,6 +3,8 @@
 ## Configuration
 Knime version: 4.3.2
 
+NodePit
+
 
 ## Vue d'ensemble
 Voici une vue d'ensemble du Workflow
