@@ -31,11 +31,13 @@ Ensuite, le pré-nettoyage va effectuer les étapes suivantes:
 - Supprimer les numéros de pages (pas encore au point).
 - Supprimer le DOI.
 
+Cette partie doit être améliorer afin d'être utilisable pour tout type de références possible.
+
 L'étape de pré-nettoyage peut encore être amélioré afin d'avoir de meilleur résultat au niveau des matching des références.
 
 ## Distance de Levenshtein normalisé
 
-A des fins de tests, la deuxième partie utilise uniquement une référence qui correspond 
+
 
 ### Première partie (qui englobe toutes les données)
 ![image](https://user-images.githubusercontent.com/61782191/123226322-d7e18080-d4d3-11eb-9d22-7453fdf028fe.png)
@@ -43,6 +45,9 @@ A des fins de tests, la deuxième partie utilise uniquement une référence qui 
 
 
 ### Deuxième partie (partie de test avec une seule référence à comparer)
+
+A des fins de tests, la deuxième partie utilise uniquement une référence qui correspond à "Row29_2" qui est "nakamoto s. bitcoin: a peer-to-peer electronic cash system. (2008-0) [2019-0]."
+
 ![image](https://user-images.githubusercontent.com/61782191/123226457-f8a9d600-d4d3-11eb-8710-1533e0994e09.png)
 
 ### Seuil pour la distance normalisé
@@ -83,7 +88,7 @@ Donc, cela nous montre que la référence qui a un petit score total (en additio
 #### Méthode 2
 (à appronfondir) Remplacer toutes les références par la référence qui a eu le plus de match de similarité, donc cette référence serait celle qui couvre le plus de référence similaire. 
 
-## Fingerprint
+## Fingerprint Similarity
 ![image](https://user-images.githubusercontent.com/61782191/123226503-05c6c500-d4d4-11eb-9df0-93f7def27d56.png)
 
 
