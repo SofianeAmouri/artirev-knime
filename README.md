@@ -42,13 +42,16 @@ L'étape de pré-nettoyage peut encore être amélioré afin d'avoir de meilleur
 
 
 ### Première partie (qui englobe toutes les données)
+Lorsque l'on prend toutes les références afin de tester le matching entre elle, cela prend un temps considérable, même en ayant un petit data set qui contient uniquement 146 documents de type article.
+
 ![image](https://user-images.githubusercontent.com/61782191/123226322-d7e18080-d4d3-11eb-9d22-7453fdf028fe.png)
 
 
 
 ### Deuxième partie (partie de test avec une seule référence à comparer)
 
-A des fins de tests, la deuxième partie utilise uniquement une référence qui correspond à "Row29_2" qui est "nakamoto s. bitcoin: a peer-to-peer electronic cash system. (2008-0) [2019-0]."
+A des fins de tests, la deuxième partie utilise uniquement une référence qui correspond à "Row29_2" qui est "nakamoto s. bitcoin: a peer-to-peer electronic cash system. (2008-0) [2019-0]".
+Ceci permet de tester la démarche sans perdre énormement aux chargements de toutes les références.
 
 ![image](https://user-images.githubusercontent.com/61782191/123226457-f8a9d600-d4d3-11eb-8710-1533e0994e09.png)
 
