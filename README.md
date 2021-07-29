@@ -20,7 +20,7 @@ Voici une vue d'ensemble du Workflow
 Le chargement du fichier permet tout simplement de charger le fichier de type csv dans Knime, par la suite on garde uniquement deux colonnes qui nous intéresse, EID qui correspond à l'identifiant du document (articles ou autres) et References qui correspond à toutes les références citées dans le document. On sépare toutes les références des documents afin de les avoir séparement et on passe à la partie suivante.
 
 
-## Pré-nettoyage
+## Pré-nettoyage (ancien, à refaire)
 ![image](https://user-images.githubusercontent.com/61782191/123225599-293d4000-d4d3-11eb-999f-8192980f6425.png)
 
 On effectue un pré-nettoyage afin d'avoir des matchs de référence plus précise. On supprime plusieurs éléments de la référence, en commencant par supprimer les documents qui ne contiennent aucune référence, afin de gagner un peu de temps sur le traitement plus tard. 
